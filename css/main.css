@@ -1,0 +1,44 @@
+body{
+    overflow: hidden;
+    background-color:coral;
+}
+.page{
+   /* display: none; */
+    padding: 2rem;
+    position: absolute;
+    transform: translateX(-200%);
+    transition: transform 0.8s ease;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    padding:20px;
+
+
+}
+
+.page.active{
+    /* display: block;*/
+    transform: translateX(0);
+
+
+}
+
+
+
+.num{
+    list-style: none;
+    background-color:burlywood;
+    color:black;
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+    border-radius: 50%;
+    float: left;
+    
+}
